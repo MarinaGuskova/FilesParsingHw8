@@ -14,8 +14,7 @@ import java.util.zip.ZipInputStream;
 import static org.assertj.core.api.Assertions.assertThat;
 
 public class FilesParsingHw8Test {
-
-    ClassLoader cl = FilesParsingTest.class.getClassLoader();
+    ClassLoader cl = FilesParsingHw8Test.class.getClassLoader();
 
     @Test
     void pdfZipParseTest() throws Exception {

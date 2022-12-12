@@ -10,7 +10,7 @@ import static org.assertj.core.api.Assertions.assertThat;
 
 public class JsonParsingHw8 {
     @Test
-    void CatJsonReader() throws Exception {
+    void catJsonReader() throws Exception {
         ObjectMapper objectMapper = new ObjectMapper();
         File catjsonefile = new File("src/test/resources/cat.json");
         Cat cat = objectMapper.readValue(catjsonefile, Cat.class);
